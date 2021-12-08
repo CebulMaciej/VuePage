@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
     <router-link to="/myFirstPage">MyFirstPage</router-link>
   </div>
   <router-view />
@@ -18,11 +18,14 @@
 
 #nav {
   padding: 30px;
-
+  border-bottom: 1px solid #494949;
+  text-align: left;
   a {
     font-weight: bold;
     color: #2c3e50;
-
+    padding: 10px;
+    border: 1px solid #999999;
+    text-decoration: none;
     &.router-link-exact-active {
       color: #42b983;
     }
