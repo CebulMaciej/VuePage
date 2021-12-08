@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: |
            cebulmaciej/vueapp:latest
-           cebulmaciej/vueapp:${{GITHUB_SHA}}
+           cebulmaciej/vueapp:${GITHUB_SHA}
