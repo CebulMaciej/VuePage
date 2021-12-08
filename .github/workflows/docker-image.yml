@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: |
+       docker login -u cebulmaciej -p ${DOCKER_PASSWORD}
+       docker build . --file Dockerfile -t cebulmaciej/vuepage:latest -t cebulmaciej/vuepage:${GITHUB_SHA}
