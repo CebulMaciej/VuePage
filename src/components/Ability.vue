@@ -1,5 +1,5 @@
 <template>
-  <div class="ability col-sm-6 col-md-6 col-6">
+  <div class="ability col-sm-12 col-md-6 col-6">
     <h2>{{ header }}</h2>
     <div>
       {{ content }}
