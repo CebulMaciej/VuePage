@@ -71,7 +71,9 @@ export default defineComponent({
 
 <style scoped>
 .abilities {
+  margin-top: 5rem;
   text-align: center;
   align-items: center;
+  width: 90%;
 }
 </style>
