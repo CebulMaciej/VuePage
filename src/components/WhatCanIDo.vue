@@ -1,6 +1,6 @@
 <template>
   <div class="abilities container-fluid">
-    <h1>What can i do</h1>
+    <h1>What services I provide:</h1>
     <div class="row">
       <Ability
         header="Writing systems from scratch"
