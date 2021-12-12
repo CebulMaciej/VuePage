@@ -1,8 +1,10 @@
 <template>
-  <h1>I am .Net developer</h1>
-  <p>
-    which always wants to improve skills and works with the newest technologies
-  </p>
+  <div id="whoAmI">
+    <h1>I am .Net developer,</h1>
+    <p>
+      which main goal is improving skills and works with the latest technologies
+    </p>
+  </div>
 </template>
 
 <script lang="ts">
@@ -19,4 +21,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+#whoAmI {
+  margin-bottom: 5rem;
+}
+</style>

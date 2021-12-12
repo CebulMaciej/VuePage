@@ -1,6 +1,6 @@
 <template>
-  <div class="ability">
-    <h1>{{ header }}</h1>
+  <div class="ability col-sm-6 col-md-6 col-6">
+    <h2>{{ header }}</h2>
     <div>
       {{ content }}
     </div>
@@ -24,14 +24,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.ability p {
-  max-width: 50%;
-  display: block;
-  margin: auto;
-}
-.ability div {
-  max-width: 50%;
-  display: block;
-  margin: auto;
+.ability {
+  padding: 15px 20px;
 }
 </style>
