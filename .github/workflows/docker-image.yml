@@ -52,6 +52,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
+          docker pull cebulmaciej/vueapp:${{ github.sha }}
           docker rm -f $(docker ps -aqf "name=vueapp")
           docker run -p 5050:8080 --name="vueapp" -d cebulmaciej/vueapp:${{ github.sha }}
           whoami
