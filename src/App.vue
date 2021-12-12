@@ -17,14 +17,13 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 18px;
   border-bottom: 1px solid #494949;
   text-align: left;
   a {
     font-weight: bold;
     color: #2c3e50;
-    padding: 10px;
-    border: 1px solid #999999;
+    padding: 5px 20px;
     text-decoration: none;
     &.router-link-exact-active {
       color: #42b983;
