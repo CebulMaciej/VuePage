@@ -30,6 +30,7 @@ export default defineComponent({
 .ability div {
   padding: 15px 20px;
   background: #dcdde1;
+  border-radius: 1px 15%;
 }
 h2 {
   border-bottom: 1px solid #000000;
