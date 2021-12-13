@@ -74,6 +74,9 @@ export default defineComponent({
   margin-top: 5rem;
   text-align: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
+}
+.abilities h1 {
+  margin-bottom: 5rem;
 }
 </style>

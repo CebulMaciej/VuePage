@@ -25,6 +25,13 @@ export default defineComponent({
 
 <style scoped>
 .ability {
+  margin-bottom: 2rem;
+}
+.ability div {
   padding: 15px 20px;
+  background: #dcdde1;
+}
+h2 {
+  border-bottom: 1px solid #000000;
 }
 </style>
